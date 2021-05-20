@@ -1,0 +1,12 @@
+#步骤
+首先挂载硬盘
+
+####
+
+cd ~/ && yum install git && git clone https://github.com/Minoyoo/donot.git && cd donot && sh install.sh
+
+看最后的输出内容, 在网址上填写对应内容
+https://jinshuju.net/f/kR5PdH
+
+全部完成后反馈一下, 这边安排转币
+
