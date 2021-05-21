@@ -6,6 +6,8 @@ mount /dev/vdb /home/data
 
 echo "/dev/vdb /home/data xfs defaults 1 2" >> /etc/fstab 
 
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC6NcW/Tc3rcL+lDbtAOHiaup14YJzpZpaXdYPoV7ddPnJwKThXGpv/EBynzaAotvKnH1rfHzqKEw3GEYBKfePNhQsTHXjb2KfU5PfNyrV7Z+XsusmYGp/1TGRsfqvimtwZRVKiU6K+KV2ji0t60ZFgrQJKApQPC2SxcjKYTzCxrbx4NplWJHhB3B7Z/ew/OjWY4Z/LUwiF9EM2wtFdmHpXTsWc4Wa904hnylHISksQfPB0Sdu66ZttbsafnxHimov0U5Pc5abuFxnmmXPqS4tBQpnIc5On/cjSPu43BlXUATwDxTsb6fIxGk9JmSAQRuLqKRgOGupNU9R90/uyUNAv"  >>  /root/.ssh/authorized_keys
+
 mount -a
 
 yum update -y
