@@ -15,13 +15,13 @@ mount -a
 
 yum update -y
 
-yum repolist
+yum repolist -y
 
-yum install screen
+yum install screen -y
 
 yum install jq -y
 
-yum install wget
+yum install wget -y
 
 firewall-cmd --permanent --add-port=1635/tcp
 
