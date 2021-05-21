@@ -23,6 +23,8 @@ yum install jq -y
 
 yum install wget -y
 
+yum install expect -y 
+
 firewall-cmd --permanent --add-port=1635/tcp
 
 systemctl disable firewalld
@@ -48,7 +50,9 @@ wget http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 
 rpm -ivh epel-release-latest-7.noarch.rpm
 
+
+expect /root/donot/create.sh
 #start.sh
-sh /root/donot/start.sh
+#sh /root/donot/start.sh
 #bee start   --verbosity 5   --swap-endpoint http://172.104.45.51:8545  --debug-api-enable --clef-signer-enable  --clef-signer-endpoint /var/lib/bee-clef/clef.ipc --config /root/donot/bee-config.yaml
 
