@@ -1,4 +1,4 @@
-yum remove bee
+yum remove bee -y
 
 remove bee_0.* -f
 
