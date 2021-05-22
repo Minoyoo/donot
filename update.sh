@@ -1,6 +1,6 @@
 yum remove bee
 
-remove bee_0.*
+remove bee_0.* -y
 
 wget https://github.com/ethersphere/bee/releases/download/v0.6.0/bee_0.6.0_amd64.rpm
 
