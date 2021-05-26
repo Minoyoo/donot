@@ -40,7 +40,7 @@ sudo rpm -i bee-clef_0.4.12_amd64.rpm
 systemctl status bee-clef
 
 #install bee
-wget https://github.com/ethersphere/bee/releases/download/v0.6.1/bee_0.6.0_amd64.rpm
+wget https://github.com/ethersphere/bee/releases/download/v0.6.0/bee_0.6.0_amd64.rpm
 sudo rpm -i bee_0.6.0_amd64.rpm
 
 #if succed
