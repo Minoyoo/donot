@@ -6,7 +6,7 @@ clef-signer-enable: false
 clef-signer-endpoint: ""
 clef-signer-ethereum-address: ""
 cors-allowed-origins: []
-data-dir: /root/.bee
+data-dir: //home/data/.bee
 db-block-cache-capacity: "33554432"
 db-capacity: "10000000" #硬盘容量
 db-disable-seeks-compaction: false
